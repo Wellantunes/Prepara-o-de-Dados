@@ -2,8 +2,6 @@ import pandas as pd
 
 df = pd.read_csv('/data/ecommerce_tratados.csv')
 
-# Escreva seu código abaixo
-
 # Verifica a quantidade de dados únicos em cada coluna
 unicos = df.nunique()
 print('Analise de dados únicos:\n', unicos)
